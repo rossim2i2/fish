@@ -1,7 +1,0 @@
-#!/bin/sh
-set -e
-
-mkdir -p "$1" || true
-cd "$1"
-touch README.md
-vim README.md
